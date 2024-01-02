@@ -1,0 +1,221 @@
+[
+    {
+        "arxivID": "2307.09793",
+        "pdf_url": "https://arxiv.org/pdf/2307.09793.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.09793",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/uGPSva_jYU3EmJvXSPb82.png",
+        "vedio": null,
+        "field": "Digital Libraries",
+        "title": "On the Origin of LLMs: An Evolutionary Tree and Graph for 15,821 Large Language Models",
+        "authors": [
+            "Sarah Gao",
+            "Andrew Kean Gao"
+        ],
+        "desc": "Since late 2022, Large Language Models (LLMs) have become very prominent with\nLLMs like ChatGPT and Bard receiving millions of users. Hundreds of new LLMs\nare announced each week, many of which are deposited to Hugging Face, a\nrepository of machine learning models and datasets. To date, nearly 16,000 Text\nGeneration models have been uploaded to the site. Given the huge influx of\nLLMs, it is of interest to know which LLM backbones, settings, training\nmethods, and families are popular or trending. However, there is no\ncomprehensive index of LLMs available. We take advantage of the relatively\nsystematic nomenclature of Hugging Face LLMs to perform hierarchical clustering\nand identify communities amongst LLMs using n-grams and term frequency-inverse\ndocument frequency. Our methods successfully identify families of LLMs and\naccurately cluster LLMs into meaningful subgroups. We present a public web\napplication to navigate and explore Constellation, our atlas of 15,821 LLMs.\nConstellation rapidly generates a variety of visualizations, namely\ndendrograms, graphs, word clouds, and scatter plots. Constellation is available\nat the following link: this https URL.",
+        "submission": "2023-07-19T07:17:43.000000Z"
+    },
+    {
+        "arxivID": "2307.10169",
+        "pdf_url": "https://arxiv.org/pdf/2307.10169.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.10169",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/PcgMJnNtGW1FB8Xx-pLZJ.png",
+        "vedio": null,
+        "field": "Computation and Language",
+        "title": "Challenges and Applications of Large Language Models",
+        "authors": [
+            "Jean Kaddour",
+            "Joshua Harris",
+            "Maximilian Mozes",
+            "Herbie Bradley",
+            "Roberta Raileanu",
+            "Robert McHardy"
+        ],
+        "desc": "Large Language Models (LLMs) went from non-existent to ubiquitous in the\nmachine learning discourse within a few years. Due to the fast pace of the\nfield, it is difficult to identify the remaining challenges and already\nfruitful application areas. In this paper, we aim to establish a systematic set\nof open problems and application successes so that ML researchers can\ncomprehend the field's current state more quickly and become productive.",
+        "submission": "2023-07-19T17:55:13.000000Z"
+    },
+    {
+        "arxivID": "2307.09668",
+        "pdf_url": "https://arxiv.org/pdf/2307.09668.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.09668",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/vNLB_KlnuXdixXE0mE3ch.png",
+        "vedio": null,
+        "field": "Robotics",
+        "title": "Towards A Unified Agent with Foundation Models",
+        "authors": [
+            "Norman Di Palo",
+            "Arunkumar Byravan",
+            "Leonard Hasenclever",
+            "Markus Wulfmeier",
+            "Nicolas Heess",
+            "Martin Riedmiller"
+        ],
+        "desc": "Language Models and Vision Language Models have recently demonstrated\nunprecedented capabilities in terms of understanding human intentions,\nreasoning, scene understanding, and planning-like behaviour, in text form,\namong many others. In this work, we investigate how to embed and leverage such\nabilities in Reinforcement Learning (RL) agents. We design a framework that\nuses language as the core reasoning tool, exploring how this enables an agent\nto tackle a series of fundamental RL challenges, such as efficient exploration,\nreusing experience data, scheduling skills, and learning from observations,\nwhich traditionally require separate, vertically designed algorithms. We test\nour method on a sparse-reward simulated robotic manipulation environment, where\na robot needs to stack a set of objects. We demonstrate substantial performance\nimprovements over baselines in exploration efficiency and ability to reuse data\nfrom offline datasets, and illustrate how to reuse learned skills to solve\nnovel tasks or imitate videos of human experts.",
+        "submission": "2023-07-18T22:37:30.000000Z"
+    },
+    {
+        "arxivID": "2307.10088",
+        "pdf_url": "https://arxiv.org/pdf/2307.10088.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.10088",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/Xa7Wc0l4cutpugTPa7G7t.png",
+        "vedio": null,
+        "field": "Machine Learning",
+        "title": "Android in the Wild: A Large-Scale Dataset for Android Device Control",
+        "authors": [
+            "Christopher Rawles",
+            "Alice Li",
+            "Daniel Rodriguez",
+            "Oriana Riva",
+            "Timothy Lillicrap"
+        ],
+        "desc": "There is a growing interest in device-control systems that can interpret\nhuman natural language instructions and execute them on a digital device by\ndirectly controlling its user interface. We present a dataset for\ndevice-control research, Android in the Wild (AITW), which is orders of\nmagnitude larger than current datasets. The dataset contains human\ndemonstrations of device interactions, including the screens and actions, and\ncorresponding natural language instructions. It consists of 715k episodes\nspanning 30k unique instructions, four versions of Android (v10-13),and eight\ndevice types (Pixel 2 XL to Pixel 6) with varying screen resolutions. It\ncontains multi-step tasks that require semantic understanding of language and\nvisual context. This dataset poses a new challenge: actions available through\nthe user interface must be inferred from their visual appearance. And, instead\nof simple UI element-based actions, the action space consists of precise\ngestures (e.g., horizontal scrolls to operate carousel widgets). We organize\nour dataset to encourage robustness analysis of device-control systems, i.e.,\nhow well a system performs in the presence of new task descriptions, new\napplications, or new platform versions. We develop two agents and report\nperformance across the dataset. The dataset is available at\nthis https URL.",
+        "submission": "2023-07-19T15:57:24.000000Z"
+    },
+    {
+        "arxivID": "2307.10172",
+        "pdf_url": "https://arxiv.org/pdf/2307.10172.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.10172",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/OQi23-hIpoHtikeY6LNDy.png",
+        "vedio": null,
+        "field": "Computation and Language",
+        "title": "DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI",
+        "authors": [
+            "Jianguo Zhang",
+            "Kun Qian",
+            "Zhiwei Liu",
+            "Shelby Heinecke",
+            "Rui Meng",
+            "Ye Liu",
+            "Zhou Yu",
+            "Silvio Savarese",
+            "Caiming Xiong"
+        ],
+        "desc": "Despite advancements in conversational AI, language models encounter\nchallenges to handle diverse conversational tasks, and existing dialogue\ndataset collections often lack diversity and comprehensiveness. To tackle these\nissues, we introduce DialogStudio: the largest and most diverse collection of\ndialogue datasets, unified under a consistent format while preserving their\noriginal information. Our collection encompasses data from open-domain\ndialogues, task-oriented dialogues, natural language understanding,\nconversational recommendation, dialogue summarization, and knowledge-grounded\ndialogues, making it an incredibly rich and diverse resource for dialogue\nresearch and model training. To further enhance the utility of DialogStudio, we\nidentify the licenses for each dataset and design domain-aware prompts for\nselected dialogues to facilitate instruction-aware fine-tuning. Furthermore, we\ndevelop conversational AI models using the dataset collection, and our\nexperiments in both zero-shot and few-shot learning scenarios demonstrate the\nsuperiority of DialogStudio. To improve transparency and support dataset and\ntask-based research, as well as language model pre-training, all datasets,\nlicenses, codes, and models associated with DialogStudio are made publicly\naccessible at this https URL",
+        "submission": "2023-07-19T17:57:53.000000Z"
+    },
+    {
+        "arxivID": "2307.10168",
+        "pdf_url": "https://arxiv.org/pdf/2307.10168.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.10168",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/cE0VdKqyKJFZSmmmspsLG.png",
+        "vedio": null,
+        "field": "Computation and Language",
+        "title": "LLMs as Workers in Human-Computational Algorithms? Replicating Crowdsourcing Pipelines with LLMs",
+        "authors": [
+            "Tongshuang Wu",
+            "Haiyi Zhu",
+            "Maya Albayrak",
+            "Alexis Axon",
+            "Amanda Bertsch",
+            "Wenxing Deng",
+            "Ziqi Ding",
+            "Bill Guo",
+            "Sireesh Gururaja",
+            "Tzu-Sheng Kuo",
+            "Jenny T. Liang",
+            "Ryan Liu",
+            "Ihita Mandal",
+            "Jeremiah Milbauer",
+            "Xiaolin Ni",
+            "Namrata Padmanabhan",
+            "Subhashini Ramkumar",
+            "Alexis Sudjianto",
+            "Jordan Taylor",
+            "Ying-Jui Tseng",
+            "Patricia Vaidos",
+            "Zhijin Wu",
+            "Wei Wu",
+            "Chenyang Yang"
+        ],
+        "desc": "LLMs have shown promise in replicating human-like behavior in crowdsourcing\ntasks that were previously thought to be exclusive to human abilities. However,\ncurrent efforts focus mainly on simple atomic tasks. We explore whether LLMs\ncan replicate more complex crowdsourcing pipelines. We find that modern LLMs\ncan simulate some of crowdworkers' abilities in these \"human computation\nalgorithms,\" but the level of success is variable and influenced by requesters'\nunderstanding of LLM capabilities, the specific skills required for sub-tasks,\nand the optimal interaction modality for performing these sub-tasks. We reflect\non human and LLMs' different sensitivities to instructions, stress the\nimportance of enabling human-facing safeguards for LLMs, and discuss the\npotential of training humans and LLMs with complementary skill sets. Crucially,\nwe show that replicating crowdsourcing pipelines offers a valuable platform to\ninvestigate (1) the relative strengths of LLMs on different tasks (by\ncross-comparing their performances on sub-tasks) and (2) LLMs' potential in\ncomplex tasks, where they can complete part of the tasks while leaving others\nto humans.",
+        "submission": "2023-07-19T17:54:43.000000Z"
+    },
+    {
+        "arxivID": "2307.10173",
+        "pdf_url": "https://arxiv.org/pdf/2307.10173.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.10173",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/E_CX9P6rVM_HOEVR5rfrE.png",
+        "vedio": null,
+        "field": "Computer Vision and Pattern Recognition",
+        "title": "DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering",
+        "authors": [
+            "Wei Cheng",
+            "Ruixiang Chen",
+            "Wanqi Yin",
+            "Siming Fan",
+            "Keyu Chen",
+            "Honglin He",
+            "Huiwen Luo",
+            "Zhongang Cai",
+            "Jingbo Wang",
+            "Yang Gao",
+            "Zhengming Yu",
+            "Zhengyu Lin",
+            "Daxuan Ren",
+            "Lei Yang",
+            "Ziwei Liu",
+            "Chen Change Loy",
+            "Chen Qian",
+            "Wayne Wu",
+            "Dahua Lin",
+            "Bo Dai",
+            "Kwan-Yee Lin"
+        ],
+        "desc": "Realistic human-centric rendering plays a key role in both computer vision\nand computer graphics. Rapid progress has been made in the algorithm aspect\nover the years, yet existing human-centric rendering datasets and benchmarks\nare rather impoverished in terms of diversity, which are crucial for rendering\neffect. Researchers are usually constrained to explore and evaluate a small set\nof rendering problems on current datasets, while real-world applications\nrequire methods to be robust across different scenarios. In this work, we\npresent DNA-Rendering, a large-scale, high-fidelity repository of human\nperformance data for neural actor rendering. DNA-Rendering presents several\nalluring attributes. First, our dataset contains over 1500 human subjects, 5000\nmotion sequences, and 67.5M frames' data volume. Second, we provide rich assets\nfor each subject -- 2D/3D human body keypoints, foreground masks, SMPLX models,\ncloth/accessory materials, multi-view images, and videos. These assets boost\nthe current method's accuracy on downstream rendering tasks. Third, we\nconstruct a professional multi-view system to capture data, which contains 60\nsynchronous cameras with max 4096 x 3000 resolution, 15 fps speed, and stern\ncamera calibration steps, ensuring high-quality resources for task training and\nevaluation. Along with the dataset, we provide a large-scale and quantitative\nbenchmark in full-scale, with multiple tasks to evaluate the existing progress\nof novel view synthesis, novel pose animation synthesis, and novel identity\nrendering methods. In this manuscript, we describe our DNA-Rendering effort as\na revealing of new observations, challenges, and future directions to\nhuman-centric rendering. The dataset, code, and benchmarks will be publicly\navailable at this https URL",
+        "submission": "2023-07-19T17:58:03.000000Z"
+    },
+    {
+        "arxivID": "2307.10159",
+        "pdf_url": "https://arxiv.org/pdf/2307.10159.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.10159",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/tMwXgLujhVQxe882lJb7H.png",
+        "vedio": null,
+        "field": "Computer Vision and Pattern Recognition",
+        "title": "FABRIC: Personalizing Diffusion Models with Iterative Feedback",
+        "authors": [
+            "Dimitri von Rütte",
+            "Elisabetta Fedele",
+            "Jonathan Thomm",
+            "Lukas Wolf"
+        ],
+        "desc": "In an era where visual content generation is increasingly driven by machine\nlearning, the integration of human feedback into generative models presents\nsignificant opportunities for enhancing user experience and output quality.\nThis study explores strategies for incorporating iterative human feedback into\nthe generative process of diffusion-based text-to-image models. We propose\nFABRIC, a training-free approach applicable to a wide range of popular\ndiffusion models, which exploits the self-attention layer present in the most\nwidely used architectures to condition the diffusion process on a set of\nfeedback images. To ensure a rigorous assessment of our approach, we introduce\na comprehensive evaluation methodology, offering a robust mechanism to quantify\nthe performance of generative visual models that integrate human feedback. We\nshow that generation results improve over multiple rounds of iterative feedback\nthrough exhaustive analysis, implicitly optimizing arbitrary user preferences.\nThe potential applications of these findings extend to fields such as\npersonalized content creation and customization.",
+        "submission": "2023-07-19T17:39:39.000000Z"
+    },
+    {
+        "arxivID": "2307.09781",
+        "pdf_url": "https://arxiv.org/pdf/2307.09781.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.09781",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/roPa3nVN29I7EgUoWHdDR.png",
+        "vedio": null,
+        "field": "Computer Vision and Pattern Recognition",
+        "title": "Text2Layer: Layered Image Generation using Latent Diffusion Model",
+        "authors": [
+            "Xinyang Zhang",
+            "Wentian Zhao",
+            "Xin Lu",
+            "Jeff Chien"
+        ],
+        "desc": "Layer compositing is one of the most popular image editing workflows among\nboth amateurs and professionals. Motivated by the success of diffusion models,\nwe explore layer compositing from a layered image generation perspective.\nInstead of generating an image, we propose to generate background, foreground,\nlayer mask, and the composed image simultaneously. To achieve layered image\ngeneration, we train an autoencoder that is able to reconstruct layered images\nand train diffusion models on the latent representation. One benefit of the\nproposed problem is to enable better compositing workflows in addition to the\nhigh-quality image output. Another benefit is producing higher-quality layer\nmasks compared to masks produced by a separate step of image segmentation.\nExperimental results show that the proposed method is able to generate\nhigh-quality layered images and initiates a benchmark for future work.",
+        "submission": "2023-07-19T06:56:07.000000Z"
+    },
+    {
+        "arxivID": "2307.09638",
+        "pdf_url": "https://arxiv.org/pdf/2307.09638.pdf",
+        "arxiv_url": "https://arxiv.org/abs/2307.09638",
+        "img": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/q2OYK_crfycZ1bR2HfH98.png",
+        "vedio": null,
+        "field": "Machine Learning",
+        "title": "Promoting Exploration in Memory-Augmented Adam using Critical Momenta",
+        "authors": [
+            "Pranshu Malviya",
+            "Gonçalo Mordido",
+            "Aristide Baratin",
+            "Reza Babanezhad Harikandeh",
+            "Jerry Huang",
+            "Simon Lacoste-Julien",
+            "Razvan Pascanu",
+            "Sarath Chandar"
+        ],
+        "desc": "Adaptive gradient-based optimizers, particularly Adam, have left their mark\nin training large-scale deep learning models. The strength of such optimizers\nis that they exhibit fast convergence while being more robust to hyperparameter\nchoice. However, they often generalize worse than non-adaptive methods. Recent\nstudies have tied this performance gap to flat minima selection: adaptive\nmethods tend to find solutions in sharper basins of the loss landscape, which\nin turn hurts generalization. To overcome this issue, we propose a new\nmemory-augmented version of Adam that promotes exploration towards flatter\nminima by using a buffer of critical momentum terms during training.\nIntuitively, the use of the buffer makes the optimizer overshoot outside the\nbasin of attraction if it is not wide enough. We empirically show that our\nmethod improves the performance of several variants of Adam on standard\nsupervised language modelling and image classification tasks.",
+        "submission": "2023-07-18T20:59:52.000000Z"
+    }
+]

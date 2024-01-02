@@ -1,0 +1,195 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "b68574c6-c9d4-4c9b-b4cc-c5b844c6291b",
+            "created_time": "2023-02-20T10:02:00.000Z",
+            "last_edited_time": "2023-02-21T06:49:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "3d2397d0-e90e-4604-8a85-fb03cdb9fae9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "3d2397d0-e90e-4604-8a85-fb03cdb9fae9"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "48de1468-a769-42dc-9c93-128fc56babb1"
+            },
+            "archived": false,
+            "properties": {
+                "archieve": {
+                    "id": "J%3B%3BS",
+                    "type": "checkbox",
+                    "checkbox": false
+                },
+                "Status": {
+                    "id": "MMCc",
+                    "type": "status",
+                    "status": {
+                        "id": "1d3e86e2-cde8-472d-9f86-c284d6f84c89",
+                        "name": "Not started",
+                        "color": "default"
+                    }
+                },
+                "Multi-select": {
+                    "id": "Px%5Bu",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "1a4fc810-bf05-4353-b9ef-02200f76dc47",
+                            "name": "data science",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "e8f83666-c0cc-49a1-a0a0-8d2753ee4401",
+                            "name": "reading",
+                            "color": "red"
+                        }
+                    ]
+                },
+                "source": {
+                    "id": "YV_p",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "URL": {
+                    "id": "ZOLd",
+                    "type": "url",
+                    "url": "https://towardsdatascience.com/how-to-create-storytelling-moving-bubbles-charts-in-d3js-with-python-b31cec7b8226"
+                },
+                "Created time": {
+                    "id": "rQFw",
+                    "type": "created_time",
+                    "created_time": "2023-02-20T10:02:00.000Z"
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "How to Create Storytelling Moving Bubbles Charts in d3js with Python | by Erdogan Taskesen | Towards Data Science",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "How to Create Storytelling Moving Bubbles Charts in d3js with Python | by Erdogan Taskesen | Towards Data Science",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/How-to-Create-Storytelling-Moving-Bubbles-Charts-in-d3js-with-Python-by-Erdogan-Taskesen-Towards-b68574c6c9d44c9bb4ccc5b844c6291b",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "6158dcf6-baac-46e3-8bf6-27e93cab04d2",
+            "created_time": "2023-02-20T10:01:00.000Z",
+            "last_edited_time": "2023-02-21T06:49:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "3d2397d0-e90e-4604-8a85-fb03cdb9fae9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "3d2397d0-e90e-4604-8a85-fb03cdb9fae9"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "48de1468-a769-42dc-9c93-128fc56babb1"
+            },
+            "archived": false,
+            "properties": {
+                "archieve": {
+                    "id": "J%3B%3BS",
+                    "type": "checkbox",
+                    "checkbox": false
+                },
+                "Status": {
+                    "id": "MMCc",
+                    "type": "status",
+                    "status": {
+                        "id": "1d3e86e2-cde8-472d-9f86-c284d6f84c89",
+                        "name": "Not started",
+                        "color": "default"
+                    }
+                },
+                "Multi-select": {
+                    "id": "Px%5Bu",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "1a4fc810-bf05-4353-b9ef-02200f76dc47",
+                            "name": "data science",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "e8f83666-c0cc-49a1-a0a0-8d2753ee4401",
+                            "name": "reading",
+                            "color": "red"
+                        }
+                    ]
+                },
+                "source": {
+                    "id": "YV_p",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "URL": {
+                    "id": "ZOLd",
+                    "type": "url",
+                    "url": "https://d3blocks.github.io/d3blocks/pages/html/index.html"
+                },
+                "Created time": {
+                    "id": "rQFw",
+                    "type": "created_time",
+                    "created_time": "2023-02-20T10:01:00.000Z"
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Contents \u2014 d3blocks d3blocks documentation",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Contents \u2014 d3blocks d3blocks documentation",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Contents-d3blocks-d3blocks-documentation-6158dcf6baac46e38bf627e93cab04d2",
+            "public_url": null
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page",
+    "page": {}
+}

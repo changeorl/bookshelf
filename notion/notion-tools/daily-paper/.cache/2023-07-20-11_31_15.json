@@ -1,0 +1,95 @@
+[
+    [
+        "2307.09668",
+        "https://arxiv.org/abs/2307.09668",
+        "https://arxiv.org/pdf/2307.09668.pdf",
+        "2023-07-18T22:37:30.000000Z",
+        "Robotics",
+        "Towards A Unified Agent with Foundation Models",
+        [
+            "Norman Di Palo",
+            "Arunkumar Byravan",
+            "Leonard Hasenclever",
+            "Markus Wulfmeier",
+            "Nicolas Heess",
+            "Martin Riedmiller"
+        ],
+        "Language Models and Vision Language Models have recently demonstrated\nunprecedented capabilities in terms of understanding human intentions,\nreasoning, scene understanding, and planning-like behaviour, in text form,\namong many others. In this work, we investigate how to embed and leverage such\nabilities in Reinforcement Learning (RL) agents. We design a framework that\nuses language as the core reasoning tool, exploring how this enables an agent\nto tackle a series of fundamental RL challenges, such as efficient exploration,\nreusing experience data, scheduling skills, and learning from observations,\nwhich traditionally require separate, vertically designed algorithms. We test\nour method on a sparse-reward simulated robotic manipulation environment, where\na robot needs to stack a set of objects. We demonstrate substantial performance\nimprovements over baselines in exploration efficiency and ability to reuse data\nfrom offline datasets, and illustrate how to reuse learned skills to solve\nnovel tasks or imitate videos of human experts.",
+        "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/vNLB_KlnuXdixXE0mE3ch.png"
+    ],
+    [
+        "2307.09781",
+        "https://arxiv.org/abs/2307.09781",
+        "https://arxiv.org/pdf/2307.09781.pdf",
+        "2023-07-19T06:56:07.000000Z",
+        "Computer Vision and Pattern Recognition",
+        "Text2Layer: Layered Image Generation using Latent Diffusion Model",
+        [
+            "Xinyang Zhang",
+            "Wentian Zhao",
+            "Xin Lu",
+            "Jeff Chien"
+        ],
+        "Layer compositing is one of the most popular image editing workflows among\nboth amateurs and professionals. Motivated by the success of diffusion models,\nwe explore layer compositing from a layered image generation perspective.\nInstead of generating an image, we propose to generate background, foreground,\nlayer mask, and the composed image simultaneously. To achieve layered image\ngeneration, we train an autoencoder that is able to reconstruct layered images\nand train diffusion models on the latent representation. One benefit of the\nproposed problem is to enable better compositing workflows in addition to the\nhigh-quality image output. Another benefit is producing higher-quality layer\nmasks compared to masks produced by a separate step of image segmentation.\nExperimental results show that the proposed method is able to generate\nhigh-quality layered images and initiates a benchmark for future work.",
+        "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/roPa3nVN29I7EgUoWHdDR.png"
+    ],
+    [
+        "2307.10172",
+        "https://arxiv.org/abs/2307.10172",
+        "https://arxiv.org/pdf/2307.10172.pdf",
+        "2023-07-19T17:57:53.000000Z",
+        "Computation and Language",
+        "DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI",
+        [
+            "Jianguo Zhang",
+            "Kun Qian",
+            "Zhiwei Liu",
+            "Shelby Heinecke",
+            "Rui Meng",
+            "Ye Liu",
+            "Zhou Yu",
+            "Silvio Savarese",
+            "Caiming Xiong"
+        ],
+        "Despite advancements in conversational AI, language models encounter\nchallenges to handle diverse conversational tasks, and existing dialogue\ndataset collections often lack diversity and comprehensiveness. To tackle these\nissues, we introduce DialogStudio: the largest and most diverse collection of\ndialogue datasets, unified under a consistent format while preserving their\noriginal information. Our collection encompasses data from open-domain\ndialogues, task-oriented dialogues, natural language understanding,\nconversational recommendation, dialogue summarization, and knowledge-grounded\ndialogues, making it an incredibly rich and diverse resource for dialogue\nresearch and model training. To further enhance the utility of DialogStudio, we\nidentify the licenses for each dataset and design domain-aware prompts for\nselected dialogues to facilitate instruction-aware fine-tuning. Furthermore, we\ndevelop conversational AI models using the dataset collection, and our\nexperiments in both zero-shot and few-shot learning scenarios demonstrate the\nsuperiority of DialogStudio. To improve transparency and support dataset and\ntask-based research, as well as language model pre-training, all datasets,\nlicenses, codes, and models associated with DialogStudio are made publicly\naccessible at this https URL",
+        "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/OQi23-hIpoHtikeY6LNDy.png"
+    ],
+    [
+        "2307.10169",
+        "https://arxiv.org/abs/2307.10169",
+        "https://arxiv.org/pdf/2307.10169.pdf",
+        "2023-07-19T17:55:13.000000Z",
+        "Computation and Language",
+        "Challenges and Applications of Large Language Models",
+        [
+            "Jean Kaddour",
+            "Joshua Harris",
+            "Maximilian Mozes",
+            "Herbie Bradley",
+            "Roberta Raileanu",
+            "Robert McHardy"
+        ],
+        "Large Language Models (LLMs) went from non-existent to ubiquitous in the\nmachine learning discourse within a few years. Due to the fast pace of the\nfield, it is difficult to identify the remaining challenges and already\nfruitful application areas. In this paper, we aim to establish a systematic set\nof open problems and application successes so that ML researchers can\ncomprehend the field's current state more quickly and become productive.",
+        "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/PcgMJnNtGW1FB8Xx-pLZJ.png"
+    ],
+    [
+        "2307.09638",
+        "https://arxiv.org/abs/2307.09638",
+        "https://arxiv.org/pdf/2307.09638.pdf",
+        "2023-07-18T20:59:52.000000Z",
+        "Machine Learning",
+        "Promoting Exploration in Memory-Augmented Adam using Critical Momenta",
+        [
+            "Pranshu Malviya",
+            "Gonçalo Mordido",
+            "Aristide Baratin",
+            "Reza Babanezhad Harikandeh",
+            "Jerry Huang",
+            "Simon Lacoste-Julien",
+            "Razvan Pascanu",
+            "Sarath Chandar"
+        ],
+        "Adaptive gradient-based optimizers, particularly Adam, have left their mark\nin training large-scale deep learning models. The strength of such optimizers\nis that they exhibit fast convergence while being more robust to hyperparameter\nchoice. However, they often generalize worse than non-adaptive methods. Recent\nstudies have tied this performance gap to flat minima selection: adaptive\nmethods tend to find solutions in sharper basins of the loss landscape, which\nin turn hurts generalization. To overcome this issue, we propose a new\nmemory-augmented version of Adam that promotes exploration towards flatter\nminima by using a buffer of critical momentum terms during training.\nIntuitively, the use of the buffer makes the optimizer overshoot outside the\nbasin of attraction if it is not wide enough. We empirically show that our\nmethod improves the performance of several variants of Adam on standard\nsupervised language modelling and image classification tasks.",
+        "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/q2OYK_crfycZ1bR2HfH98.png"
+    ]
+]

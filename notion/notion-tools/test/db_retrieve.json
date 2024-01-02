@@ -1,0 +1,134 @@
+{
+    "Date": {
+        "id": "%3Ed%5C%5B",
+        "name": "Date",
+        "type": "date",
+        "date": {}
+    },
+    "Status": {
+        "id": "E%7DK%3F",
+        "name": "Status",
+        "type": "status",
+        "status": {
+            "options": [
+                {
+                    "id": "8b8acf36-55d0-4151-ad19-3d191e5e8448",
+                    "name": "Not started",
+                    "color": "default"
+                },
+                {
+                    "id": "839c0363-dca4-4eb8-be76-4cdf315eeba9",
+                    "name": "In progress",
+                    "color": "blue"
+                },
+                {
+                    "id": "45e5a84a-edf6-4db9-8320-8a705a6d9913",
+                    "name": "Done",
+                    "color": "green"
+                }
+            ],
+            "groups": [
+                {
+                    "id": "1e9118a8-46ba-4312-bc96-58316d3d9c1a",
+                    "name": "To-do",
+                    "color": "gray",
+                    "option_ids": [
+                        "8b8acf36-55d0-4151-ad19-3d191e5e8448"
+                    ]
+                },
+                {
+                    "id": "1db4ae98-8aac-4b5e-ba8e-c6d06c771547",
+                    "name": "In progress",
+                    "color": "blue",
+                    "option_ids": [
+                        "839c0363-dca4-4eb8-be76-4cdf315eeba9"
+                    ]
+                },
+                {
+                    "id": "66428150-4d2c-478d-a89e-9dbc60eda1ae",
+                    "name": "Complete",
+                    "color": "green",
+                    "option_ids": [
+                        "45e5a84a-edf6-4db9-8320-8a705a6d9913"
+                    ]
+                }
+            ]
+        }
+    },
+    "Created time": {
+        "id": "F%3ERD",
+        "name": "Created time",
+        "type": "created_time",
+        "created_time": {}
+    },
+    "Text": {
+        "id": "RoYD",
+        "name": "Text",
+        "type": "rich_text",
+        "rich_text": {}
+    },
+    "Tags": {
+        "id": "XSX%7C",
+        "name": "Tags",
+        "type": "multi_select",
+        "multi_select": {
+            "options": [
+                {
+                    "id": "226b8be1-8142-4749-8228-f61a74de8745",
+                    "name": "cs",
+                    "color": "orange"
+                },
+                {
+                    "id": "e833eed1-39cf-4b57-8cd4-61367b0f8b38",
+                    "name": "ml",
+                    "color": "pink"
+                },
+                {
+                    "id": "794a90fd-6d94-4155-8f55-175670be3783",
+                    "name": "bb",
+                    "color": "gray"
+                }
+            ]
+        }
+    },
+    "URL": {
+        "id": "bErr",
+        "name": "URL",
+        "type": "url",
+        "url": {}
+    },
+    "Number": {
+        "id": "gys%5C",
+        "name": "Number",
+        "type": "number",
+        "number": {
+            "format": "euro"
+        }
+    },
+    "Select": {
+        "id": "oC%60j",
+        "name": "Select",
+        "type": "select",
+        "select": {
+            "options": [
+                {
+                    "id": "dc83c0c2-c30f-41e5-bcf3-01a5a1b690bc",
+                    "name": "ai",
+                    "color": "yellow"
+                }
+            ]
+        }
+    },
+    "Checkbox": {
+        "id": "vX%5Bn",
+        "name": "Checkbox",
+        "type": "checkbox",
+        "checkbox": {}
+    },
+    "Name": {
+        "id": "title",
+        "name": "Name",
+        "type": "title",
+        "title": {}
+    }
+}

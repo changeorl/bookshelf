@@ -1,0 +1,148 @@
+{
+    "object": "database",
+    "id": "48de1468-a769-42dc-9c93-128fc56babb1",
+    "cover": null,
+    "icon": {
+        "type": "emoji",
+        "emoji": "\ud83d\udce5"
+    },
+    "created_time": "2023-02-20T09:59:00.000Z",
+    "created_by": {
+        "object": "user",
+        "id": "3d2397d0-e90e-4604-8a85-fb03cdb9fae9"
+    },
+    "last_edited_by": {
+        "object": "user",
+        "id": "3d2397d0-e90e-4604-8a85-fb03cdb9fae9"
+    },
+    "last_edited_time": "2023-07-03T07:38:00.000Z",
+    "title": [
+        {
+            "type": "text",
+            "text": {
+                "content": "inbox",
+                "link": null
+            },
+            "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+            },
+            "plain_text": "inbox",
+            "href": null
+        }
+    ],
+    "description": [],
+    "is_inline": false,
+    "properties": {
+        "archieve": {
+            "id": "J%3B%3BS",
+            "name": "archieve",
+            "type": "checkbox",
+            "checkbox": {}
+        },
+        "Status": {
+            "id": "MMCc",
+            "name": "Status",
+            "type": "status",
+            "status": {
+                "options": [
+                    {
+                        "id": "1d3e86e2-cde8-472d-9f86-c284d6f84c89",
+                        "name": "Not started",
+                        "color": "default"
+                    },
+                    {
+                        "id": "dc93c9f1-caca-42fe-b829-a0c6d22fb869",
+                        "name": "In progress",
+                        "color": "blue"
+                    },
+                    {
+                        "id": "7d2124b4-afa1-430f-b7db-413a6289c7ad",
+                        "name": "Done",
+                        "color": "green"
+                    }
+                ],
+                "groups": [
+                    {
+                        "id": "6fda9c52-4ec1-449d-8ce6-159ab0d0bbe3",
+                        "name": "To-do",
+                        "color": "gray",
+                        "option_ids": [
+                            "1d3e86e2-cde8-472d-9f86-c284d6f84c89"
+                        ]
+                    },
+                    {
+                        "id": "e30e4a2a-787f-40ba-b361-d11162b67622",
+                        "name": "In progress",
+                        "color": "blue",
+                        "option_ids": [
+                            "dc93c9f1-caca-42fe-b829-a0c6d22fb869"
+                        ]
+                    },
+                    {
+                        "id": "1697e34e-1401-4a21-b733-e25ea8486553",
+                        "name": "Complete",
+                        "color": "green",
+                        "option_ids": [
+                            "7d2124b4-afa1-430f-b7db-413a6289c7ad"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Multi-select": {
+            "id": "Px%5Bu",
+            "name": "Multi-select",
+            "type": "multi_select",
+            "multi_select": {
+                "options": [
+                    {
+                        "id": "1a4fc810-bf05-4353-b9ef-02200f76dc47",
+                        "name": "data science",
+                        "color": "pink"
+                    },
+                    {
+                        "id": "e8f83666-c0cc-49a1-a0a0-8d2753ee4401",
+                        "name": "reading",
+                        "color": "red"
+                    }
+                ]
+            }
+        },
+        "source": {
+            "id": "YV_p",
+            "name": "source",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "URL": {
+            "id": "ZOLd",
+            "name": "URL",
+            "type": "url",
+            "url": {}
+        },
+        "Created time": {
+            "id": "rQFw",
+            "name": "Created time",
+            "type": "created_time",
+            "created_time": {}
+        },
+        "Name": {
+            "id": "title",
+            "name": "Name",
+            "type": "title",
+            "title": {}
+        }
+    },
+    "parent": {
+        "type": "workspace",
+        "workspace": true
+    },
+    "url": "https://www.notion.so/48de1468a76942dc9c93128fc56babb1",
+    "public_url": null,
+    "archived": false
+}

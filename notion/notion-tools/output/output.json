@@ -1,0 +1,110 @@
+{
+    "parent": {
+        "database_id": "08a9b64c5d344a72967cd3bfdf8f8368"
+    },
+    "cover": {
+        "external": {
+            "url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/74A8TPWrOBYNsPhhx3sSD.png"
+        }
+    },
+    "properties": {
+        "title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "NU-MCC: Multiview Compressive Coding with Neighborhood Decoder and Repulsive UDF"
+                    }
+                }
+            ]
+        },
+        "arxivID": {
+            "id": "hqID",
+            "type": "rich_text",
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "2307.09112"
+                    }
+                }
+            ]
+        },
+        "arxivURL": {
+            "id": "EWzs",
+            "type": "url",
+            "url": "https://arxiv.org/abs/2307.09112"
+        },
+        "pdf": {
+            "id": "dzux",
+            "type": "url",
+            "url": "https://arxiv.org/pdf/2307.09112.pdf"
+        },
+        "field": {
+            "id": "s%3C%3Fc",
+            "type": "select",
+            "select": {
+                "name": "Computer Vision and Pattern Recognition"
+            }
+        },
+        "published": {
+            "id": "TGX~",
+            "type": "date",
+            "date": {
+                "start": "2023-07-18T10:02:09.000000Z",
+                "end": null,
+                "time_zone": null
+            }
+        }
+    },
+    "children": [
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Stefan Lionar, Xiangyu Xu, Min Lin, Gim Hee Lee"
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "blue"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "quote",
+            "quote": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Remarkable progress has been made in 3D reconstruction from single-view RGB-D\ninputs. MCC is the current state-of-the-art method in this field, which\nachieves unprecedented success by combining vision Transformers with\nlarge-scale training. However, we identified two key limitations of MCC: 1) The\nTransformer decoder is inefficient in handling large number of query points; 2)\nThe 3D representation struggles to recover high-fidelity details. In this\npaper, we propose a new approach called NU-MCC that addresses these\nlimitations. NU-MCC includes two key innovations: a Neighborhood decoder and a\nRepulsive Unsigned Distance Function (Repulsive UDF). First, our Neighborhood\ndecoder introduces center points as an efficient proxy of input visual\nfeatures, allowing each query point to only attend to a small neighborhood.\nThis design not only results in much faster inference speed but also enables\nthe exploitation of finer-scale visual features for improved recovery of 3D\ntextures. Second, our Repulsive UDF is a novel alternative to the occupancy\nfield used in MCC, significantly improving the quality of 3D object\nreconstruction. Compared to standard UDFs that suffer from holes in results,\nour proposed Repulsive UDF can achieve more complete surface reconstruction.\nExperimental results demonstrate that NU-MCC is able to learn a strong 3D\nrepresentation, significantly advancing the state of the art in single-view 3D\nreconstruction. Particularly, it outperforms MCC by 9.7% in terms of the\nF1-score on the CO3D-v2 dataset with more than 5x faster running speed."
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "video",
+            "video": {
+                "type": "external",
+                "external": {
+                    "url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/xChAVyTMLL5xorZeUw7kU.mp4"
+                }
+            }
+        }
+    ]
+}
